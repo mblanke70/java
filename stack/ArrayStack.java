@@ -2,7 +2,7 @@ package stack;
 
 public class ArrayStack<Item> implements Stack<Item>
 {
-	public static final int N = 20;
+	public static final int N = 30;
 
 	Item[] a;		// speichert die Elemente
 	int topindex;	// Anzahl der gespeicherten Elemente
